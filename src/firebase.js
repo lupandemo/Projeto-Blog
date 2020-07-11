@@ -1,6 +1,7 @@
 import app from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
+import 'firebase/storage';
 
 
     let firebaseConfig = {
@@ -19,7 +20,10 @@ class Firebase{
     constructor(){
         app.initializeApp(firebaseConfig);
 
+        // Referenciando a database para acessar em outros locais
         this.app = app.database();
+
+        this.storage = app.storage();
     }
 
     login(email, password){
@@ -48,6 +52,10 @@ class Firebase{
 
     getCurrent(){
         return app.auth().currentUser &&  app.auth().currentUser.email
+    }
+
+    getCurrentUid(){
+        return app.auth().currentUser && app.auth().currentUser.uid
     }
 
     async getUserName(callback){
