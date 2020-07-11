@@ -2,10 +2,13 @@ import React, {Component} from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import firebase from './firebase';
 
+import './global.css';
 
 import Header from './components/Header';
 import Home from './components/Home';
-import './global.css';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
+import Register from './components/Register';
 
 class App extends Component{
 
@@ -26,6 +29,9 @@ class App extends Component{
         <Header/>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/Dashboard" component={Dashboard} />
+          <Route exact path="/Register" component={Register} />
         </Switch>
       </BrowserRouter>
     ) : (
