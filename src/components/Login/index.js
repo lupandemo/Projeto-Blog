@@ -47,7 +47,6 @@ class Login extends Component{
         }catch(error){
             alert(error.message);
         }
-
         
     }
 

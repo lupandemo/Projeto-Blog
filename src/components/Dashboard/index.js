@@ -43,7 +43,7 @@ class Dashboard extends Component{
                     <h1>Olá {this.state.nome}</h1>
                     <Link to="/dashboard/new">Novo Post</Link>
                 </div>
-                <p>Logado com: {firebase.getCurrent()}</p>
+                <p>Email: {firebase.getCurrent()}</p>
                 <button onClick={() => this.logout()}>Deslogar</button>
             </div>
         );

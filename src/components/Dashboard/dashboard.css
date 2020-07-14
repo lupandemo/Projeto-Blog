@@ -9,6 +9,7 @@ div#dashboard .user-info {
     display: flex;
     height: 30px;
     align-items: center;
+    justify-content: space-between;
 }
 
 div#dashboard .user-info a{
@@ -19,6 +20,23 @@ div#dashboard .user-info a{
     background-color: #FF0000;
     color: #FFF;
     text-decoration: none;
-    transition: 0.8s;
 }
 
+div#dashboard p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+div#dashboard button {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    background-color: #272727;
+    color: #FFF;
+    flex-direction: column;
+    font-weight: bold;
+}
