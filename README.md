@@ -10,7 +10,7 @@ Blog Programador
 
 <hr />
 
-Esse projeto foi desenvolvido durante o curso do Matheus Fraga.
+Esse projeto foi desenvolvido durante o curso do Matheus Fraga - React JS.
 
 O Blog Programador é uma página web simples. Nele o usuário consegui fazer login/registrar e fazer novos posts no seu dashboard, conseguindo fazer upload de arquivos. Foi utilizado o banco de dados Firebase. 
 
