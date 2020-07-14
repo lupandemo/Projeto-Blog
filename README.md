@@ -23,4 +23,4 @@ Algumas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas est√
 :white_check_mark: ReactJS </br>
 :white_check_mark: Firebase </br>
 
-Made with by :computer: LUCAS OLIVEIRA :computer:
+Made with ‚ô• by Lucas Oliveira :computer: [Get in touch!](https://www.linkedin.com/in/lucas-da-costa-oliveira-b75b30125/)
